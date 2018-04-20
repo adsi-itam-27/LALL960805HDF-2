@@ -1,0 +1,6 @@
+Como no sabemos qué tan largas pueden ser las cadenas que se repiten,
+no podemos detenernos con la primera secuencia que veamos que se 
+repite. También sabemos que como tienen que ser concatenadas, si al revisar
+la mitad del String de entrada no encontramos un patrón que se ajuste a lo que
+buscamos entonces no existe tal patrón de strings. Conocemos que si existe un
+patrón que al concatenarse de forma repetida debe formarse desde el inicio.Si la cadena que voy formando divide a la cadena total entonces es posible que sea un patrón que se repite. Entonces hago la división para ver cuántas veces debo concatenar la subCadena para ver si es igual a la cadena original.
